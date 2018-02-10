@@ -10,4 +10,7 @@
 #ifndef CONSTANT_H_
 #define CONSTANT_H_
 
+// Default Pin Mapping
+#define TINY_LED_PIN	26
+
 #endif /* CONSTANT_H_ */

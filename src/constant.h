@@ -1,5 +1,5 @@
 /*
- *	constant.h
+ *	Constant.h
  *	Hold all the necessary constant for libraries in current directory.
  *	Additionally it provides pin mapping for each library.
  *

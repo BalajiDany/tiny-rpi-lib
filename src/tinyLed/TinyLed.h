@@ -9,7 +9,7 @@
  *	Author		: Balaji
  *	Email		: d.balaji.mc@gmail.com
  */
-#include "../engine.h"
+#include "../Engine.h"
 
 #ifndef TINYLED_TINYLED_H_
 #define TINYLED_TINYLED_H_

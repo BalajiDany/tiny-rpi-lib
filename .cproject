@@ -35,9 +35,9 @@
                         						
                         <toolChain id="cdt.managedbuild.toolchain.gnu.cross.exe.debug.496991171" name="Cross GCC" superClass="cdt.managedbuild.toolchain.gnu.cross.exe.debug">
                             							
-                            <option id="cdt.managedbuild.option.gnu.cross.prefix.668137566" superClass="cdt.managedbuild.option.gnu.cross.prefix" value="arm-linux-gnueabihf-" valueType="string"/>
+                            <option id="cdt.managedbuild.option.gnu.cross.prefix.668137566" name="Prefix" superClass="cdt.managedbuild.option.gnu.cross.prefix" value="arm-linux-gnueabihf-" valueType="string"/>
                             							
-                            <option id="cdt.managedbuild.option.gnu.cross.path.806197246" superClass="cdt.managedbuild.option.gnu.cross.path" value="D:\Apps\windows\SysGCC\bin" valueType="string"/>
+                            <option id="cdt.managedbuild.option.gnu.cross.path.806197246" name="Path" superClass="cdt.managedbuild.option.gnu.cross.path" value="D:\Apps\windows\SysGCC\bin" valueType="string"/>
                             							
                             <targetPlatform archList="all" binaryParser="org.eclipse.cdt.core.ELF" id="cdt.managedbuild.targetPlatform.gnu.cross.25457595" isAbstract="false" osList="all" superClass="cdt.managedbuild.targetPlatform.gnu.cross"/>
                             							

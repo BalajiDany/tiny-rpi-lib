@@ -11,7 +11,7 @@
  */
 #include "TinyLed.h"
 
-TinyLed::TinyLed(signed char pinNumber = TINY_LED_PIN) {
+TinyLed::TinyLed(signed char pinNumber) {
 	this->pinNumber = pinNumber;
 	this->flag = false;
 

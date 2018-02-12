@@ -10,6 +10,7 @@
 #define ENGINE_H_
 
 #include <wiringPi.h>
+#include <stdint.h>
 #include "Constant.h"
 
 #endif /* ENGINE_H_ */

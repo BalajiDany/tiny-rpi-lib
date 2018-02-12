@@ -9,11 +9,14 @@
 
 #ifndef TINY_H_
 #define TINY_H_
-
 #include "TinyLed/TinyLed.h"
 
-int init() {
-	return wiringPiSetup();
+namespace Tiny {
+	int setup() {
+		return wiringPiSetup();
+	}
+
+	TinyLed led;
 }
 
 #endif /* TINY_H_ */

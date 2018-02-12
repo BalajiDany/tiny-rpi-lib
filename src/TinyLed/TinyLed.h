@@ -16,12 +16,12 @@
 
 class TinyLed {
 public:
-	TinyLed(signed char pinNumber = TINY_LED_PIN);
+	TinyLed(uint8_t pinNumber = TINY_LED_PIN);
 	void on();
 	void off();
 	void toggle();
 	bool getState();
-	void blink(unsigned short int delayMills);
+	void blink(uint16_t delayMills);
 
 private:
 	signed char pinNumber;

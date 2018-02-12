@@ -11,7 +11,7 @@
  */
 #include "TinyLed.h"
 
-TinyLed::TinyLed(signed char pinNumber) {
+TinyLed::TinyLed(uint8_t pinNumber) {
 	this->pinNumber = pinNumber;
 	this->flag = false;
 
@@ -36,7 +36,7 @@ void TinyLed::toggle() {
 	this->getState() ? off() : on();
 }
 
-void TinyLed::blink(unsigned short int delayMills) {
+void TinyLed::blink(uint16_t delayMills) {
 	this->toggle();
 	delay(delayMills);
 	this->toggle();

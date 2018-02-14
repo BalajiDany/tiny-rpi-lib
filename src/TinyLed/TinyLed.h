@@ -24,7 +24,7 @@ public:
 	void blink(uint16_t delayMills);
 
 private:
-	signed char pinNumber;
+	uint8_t pinNumber;
 	bool flag;
 };
 

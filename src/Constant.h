@@ -11,6 +11,10 @@
 #define CONSTANT_H_
 
 // Default Pin Mapping
-#define TINY_LED_PIN	26
+#define TINY_LED_PIN		26
+#define TINY_PUSH_BUTTON	27
+
+// Constants
+#define DEBOUNCE_DELAY		10
 
 #endif /* CONSTANT_H_ */

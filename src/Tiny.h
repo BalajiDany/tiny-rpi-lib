@@ -10,6 +10,7 @@
 #ifndef TINY_H_
 #define TINY_H_
 #include "TinyLed/TinyLed.h"
+#include "TinyPushButton/TinyPushButton.h"
 
 namespace Tiny {
 	int setup() {
@@ -17,6 +18,8 @@ namespace Tiny {
 	}
 
 	TinyLed led;
+
+	TinyPushButton pushButton;
 }
 
 #endif /* TINY_H_ */

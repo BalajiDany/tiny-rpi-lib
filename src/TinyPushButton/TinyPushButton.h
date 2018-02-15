@@ -19,7 +19,7 @@ public:
 	bool isRealesed();
 	void waitForPress();
 	void waitForRelease();
-	int waitForSingleClick();
+	uint16_t waitForSingleClick();
 private:
 	uint8_t pinNumber;
 };

@@ -35,11 +35,10 @@ void TinyPushButton::waitForRelease() {
 	} while(this->isRealesed());
 }
 
-int TinyPushButton::waitForSingleClick() {
-	int startTime = millis();
-
+uint16_t TinyPushButton::waitForSingleClick() {
 	this->waitForPress();
-	this->waitForRelease();
+	uint16_t startTime = millis();
 
+	this->waitForRelease();
 	return millis() - startTime;
 }

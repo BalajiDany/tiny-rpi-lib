@@ -1,9 +1,7 @@
 /*
  *	TinyLed.h
- *	Controls single led by simple on and off method.
- *	It also provides addition smart blink operation that
- *	allows to change the sate of led without considering the
- *	current state.
+ *	It is an Independent header. i.e includes only
+ *	the basic imports (Engine.h)
  *
  *	Created on	: Feb 10, 2018
  *	Author		: Balaji
@@ -14,15 +12,20 @@
 #ifndef TINYLED_TINYLED_H_
 #define TINYLED_TINYLED_H_
 
+/**
+ * class definition
+ */
 class TinyLed {
+// #public
 public:
-	TinyLed(uint8_t pinNumber = TINY_LED_PIN);
+	TinyLed(uint8_t pinNumber = TINY_LED_PIN);	// #constructor
 	void on();
 	void off();
 	void toggle();
 	bool getState();
 	void blink(uint16_t delayMills);
 
+// #private
 private:
 	uint8_t pinNumber;
 	bool flag;

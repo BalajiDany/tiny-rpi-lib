@@ -13,12 +13,16 @@
 #include "TinyPushButton/TinyPushButton.h"
 
 namespace Tiny {
+
+	// Initial setup for wiringPi
 	int setup() {
 		return wiringPiSetup();
 	}
 
+	// #Instance
 	TinyLed led;
 
+	// #Instance
 	TinyPushButton pushButton;
 }
 

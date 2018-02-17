@@ -1,6 +1,6 @@
 /*
  * 	TinyPushButton.h
- * 	Maintain the push button actions. Hold the program until there
+ * 	Maintains the push button actions. Hold the program until there
  * 	is a action in button. it also stabilized with debounce delay to filter
  *
  *	Created on	: Feb 12, 2018
